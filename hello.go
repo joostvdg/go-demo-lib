@@ -6,5 +6,5 @@ import "fmt"
 // Hello returns it's argument in the form of a greeting
 // For example, supplying Joost, will return "Hello Joost".
 func Hello(nameToGreet string) string {
-	return fmt.Sprintf("Hello %s", nameToGreet)
+	return fmt.Sprintf("hello, %s!", nameToGreet)
 }
